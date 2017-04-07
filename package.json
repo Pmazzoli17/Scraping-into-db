@@ -1,0 +1,26 @@
+{
+  "name": "scraping-into-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pmazzoli17/Scraping-into-db.git"
+  },
+  "author": "peter_mazzoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pmazzoli17/Scraping-into-db/issues"
+  },
+  "homepage": "https://github.com/Pmazzoli17/Scraping-into-db#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "mongojs": "^2.4.0",
+    "request": "^2.81.0"
+  }
+}
